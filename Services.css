@@ -64,10 +64,24 @@ button:hover
 #login
 {
     position:absolute;
-    top: 140px;
+    top: 130px;
     right:20px;
     width: 200px;
-}   
+    background-color: #FBF9F1;
+}  
+.centerb01
+{
+      position:absolute;
+      right: 240px;
+      top: 130px;
+      display: block;
+      padding: 14px 40px;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+      background-color: #FBF9F1;
+      width: 200px;
+      
+}
 .copyrights
 {
     text-align: left-end;

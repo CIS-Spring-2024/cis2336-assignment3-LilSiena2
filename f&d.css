@@ -31,6 +31,20 @@ body
     background-color: grey;
     color:black;
 }
+
+.centerb01
+{
+      position:absolute;
+      right: 240px;
+      top: 130px;
+      display: block;
+      padding: 14px 40px;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+      background-color: #FBF9F1;
+      width: 200px;
+      
+}
 /* M A I N - C O N T E N T */
 h2
 {
@@ -145,6 +159,7 @@ button:hover
     top: 130px;
     right:20px;
     width: 200px;
+    background-color: #FBF9F1;
 }  
 /* F O R M */
 .form
