@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <title> Food & Drinks </title>
+<head>
+    <img src="images/NovaBites.png" class="logo" alt="diningstock">
+    <link rel="stylesheet" href="f&d.css">
+    
+</head>
+<body>
+    <div class="nav">
+        <a href="kitchenmainpage.html" onclick="Home"> Home </a>
+        <a href="Food&Drinks.html" onclick="Food & Drinks"> Food & Drinks </a>
+        <a href="services.html" onclick="Services"> Services </a>
+        <a href="Contact.us.html"onclick="Contact Us"> Contact Us </a>
+
+        <a href="account.html"></a><button id="login">Login</button>
+    </div>
+
+    
+
+    <section> 
+    <h2> ------------ Menu -------------</h2> 
+    <!--<button class="order"> Place Order </button><script src="order.js"></script>-->
+    <img src="Sandwich display.png" id="fooddisplay"> 
+    <h3 id="header"> Sandwiches: </h3>
+    <b><p id="name">Classic BLT: </p></b><p>Bacon, lettuce, and tomato with mayonnaise on toasted bread.</p>
+    <b><p id="name">Turkey Club: </p></b><p>Sliced turkey, bacon, lettuce, tomato, and mayonnaise on three slices of toasted bread, stacked in layers.</p>    
+    <b><p id="name">Egg Salad: </p></b><p>Hard-boiled eggs mixed with mayonnaise, mustard, and seasonings, served on bread or a roll with lettuce.</p>    
+    <b><p id="name">Caprese: </p></b><p>Fresh mozzarella, tomato slices, basil leaves, and balsamic glaze on toasted ciabatta or baguette.</p>   
+    <b><p id="name">Chicken Salad: </p></b><p>Shredded chicken mixed with mayonnaise, celery, onions, and seasonings, served on bread or a croissant with lettuce.</p>  
+    <b><p id="name">Tuna Melt: </p></b><p>Tuna salad with melted cheese on toasted bread or a roll, optionally with tomato slices.</p>
+    <b><p id="name">Vegetarian Panini: </p></b><p>Grilled vegetables (such as zucchini, bell peppers, and onions) with pesto and mozzarella cheese pressed between slices of bread.</p>
+
+    <br>
+
+    <h3 id="header"> Coffee:</h3>
+    <img src="coffee drinks.png" id="coffeedisplay">
+    <b><p id="name">Drip Coffee:</p></b><p>Freshly brewed coffee made by pouring hot water over ground coffee beans, served black or with milk and sugar. (Regular/Decaf)</p>
+    <b><p id="name">Espresso:</p></b><p>A shot of concentrated coffee made by forcing hot water through finely-ground coffee beans.</p>
+    <b><p id="name">Americano:</p></b><p>Espresso diluted with hot water, resulting in a milder coffee flavor.</p>    
+    <b><p id="name">Cafe Latte:</p></b><p>Espresso mixed with steamed milk, typically with a small amount of foam on top.</p>    
+    <b><p id="name">Cappuccino:</p></b><p>Equal parts espresso, steamed milk, and milk foam, creating a creamy and frothy texture.</p>   
+    <b><p id="name">Cafe Mocha:</p></b><p>Espresso mixed with chocolate syrup or cocoa powder, steamed milk, and topped with whipped cream.</p>  
+    <b><p id="name">Iced Coffee:</p></b><p>Chilled brewed coffee served over ice, optionally sweetened and with milk or cream.</p>
+    <b><p id="name">Cold Brew Coffee:</p></b><p>Smooth and rich coffee brewed with cold water over an extended period, served over ice, syrup and sweetners available</p>
+
+    <br>
+
+    <h3 id="header"> Sweet Treats: </h3>
+    <img src="dessert display.png" id="sweetdisplay">
+    <b><p id="name">Tiramisu:</p></b><p>Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder with a flavor of espresso.</p>
+    <b><p id="name">Creme Brulee:</p></b><p>French dessert consisting of rich custard topped with a layer of caramelized sugar.</p>
+    <b><p id="name">Pastries:</p></b><p>Croissants, Muffins, Scones, Baklava, Danish pastries</p>    
+    <b><p id="name">Lemon Tart:</p></b><p>a buttery tart crust filled with tangy lemon curd, garnished with whipped cream or fresh berries.</p>    
+    <b><p id="name">Fruit Tart:</p></b><p>buttery shortcrust pastry filled with cream and garnished with fresh fruit</p>   
+    <b><p id="name">Cakes:</p></b><p>Vanilla, Chocolate, Fruit, Lemon, Red Velvet</p>  
+    <b><p id="name">Ice Cream:</p></b><p>Vanilla, Chocolate, Strawberry, Butter Pecan, Mint Chocolate, Mango Sorbet </p>
+    <b><p id="name">MYSTERY FLAVOR:</p></b><p>unique ice cream flavor made weekly - please ask staff for more details </p>
+    
+    </section>
+
+    <form class="form">
+        <fieldset>
+        <legend> Place Order</legend>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="ex: Lila" required><br>
+        <br><label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="ex: Smith" required><br>
+        
+        <br><label for="order1">Select sandwich</label>
+        <select id="order1">
+            <option value="sandwichnone">None</option>
+            <option value="sandwich1">Classic BLT</option>
+            <option value="sandwich2">Turkey Club</option>
+            <option value="sandwich3">Egg Salad</option>
+            <option value="sandwich4">Caprese</option>
+            <option value="sandwich5">Chicken Salad</option>
+            <option value="sandwich6">Tuna Melt</option>
+            <option value="sandwich7">Vegetarian Panini</option>
+        </select><br>
+        <br><label for="order2">Select Coffee</label>
+        <select id="order2">
+            <option value="coffeenone">None</option>
+            <option value="coffee1">Drip Coffee</option>
+            <option value="coffee2">Espresso</option>
+            <option value="coffee3">Americano</option>
+            <option value="coffee4">Cafe Latte</option>
+            <option value="coffee5">Cappuccino</option>
+            <option value="coffee6">Cafe Mocha</option>
+            <option value="coffee7">Iced Coffee</option>
+            <option value="coffee8">Cold Brew Coffee</option>
+        </select><br>
+        <br><label for="order3">Select Sweet Treat</label>
+        <select id="order3">
+            <option value="treatnone">None</option>
+            <option value="treat1">Tiramisu</option>
+            <option value="treat2">Creme Brulee</option>
+            <option value="treat3">Pastries - Bread</option>
+            <option value="treat3">Pastries - Muffin</option>
+            <option value="treat3">Pastries - Scone</option>
+            <option value="treat3">Pastries - Baklava</option>
+            <option value="treat3">Pastries - Danish</option>
+        </select><br>
+        <br><input type="submit" value="Submit">
+        </fieldset>
+    </form>
+    <br><a href="Biography page.html"><button class="centerb01"> About me </button></a><br>
+</body>
+<footer>
+    <div class="copyrights">
+        &copy; 2024 Cougar Trove. All Rights Reserved.
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,192 @@
+.logo
+{
+    width: 460px;
+    height: 200px;
+    
+}
+
+body
+{
+    background-color: rgb(255, 247, 241);
+
+}
+.nav
+{
+    background-color: rgb(190, 209, 207);
+    overflow: hidden;
+}
+.nav a
+{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  
+  
+}
+.nav a:hover
+{
+    background-color: grey;
+    color:black;
+}
+
+.centerb01
+{
+      position:absolute;
+      right: 240px;
+      top: 130px;
+      display: block;
+      padding: 14px 40px;
+      border-radius: 12px;
+      transition-duration: 0.4s;
+      background-color: #FBF9F1;
+      width: 200px;
+      
+}
+/* M A I N - C O N T E N T */
+h2
+{
+    text-align: center;
+    font-style: oblique;
+    font-size: 50px;
+    color:dimgrey
+}
+#header
+{
+    text-align:center;
+    font-style: oblique;
+    font-size: 35px;
+    
+}
+#name
+{
+    font-style:normal;
+}
+p
+{
+    text-indent: 5px;
+    font-style: oblique;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+#fooddisplay
+{
+    float: right; 
+    margin-right: 20px; 
+    margin-top: 100px;
+    width: 450px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+#coffeedisplay
+{
+    float: right; 
+    margin-right: 20px; 
+    margin-top: 90px;
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+#sweetdisplay
+{
+    float: right; 
+    margin-right: 20px; 
+    margin-top: 90px;
+    width: 500px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+.order
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: white;
+    width: 20%;
+    font-size: 20px;
+    font-style: Monaco;
+}
+.order:hover
+{
+    background-color: grey;
+    color:black;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px 40px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: #FBF9F1;
+    width: 20%;
+    font-size: 20px;
+    font-style: Monaco;
+}
+button:hover
+{
+    background-color: grey;
+    color:black;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#login
+{
+    position:absolute;
+    top: 130px;
+    right:20px;
+    width: 200px;
+    background-color: #FBF9F1;
+}  
+/* F O R M */
+.form
+{
+    position: relative;
+    left:500px;
+}
+legend
+{
+    font-size: 30px;
+}
+fieldset
+{
+    
+    border-color: #E78895;
+    border-radius: 8px;
+    width: 290px;
+    height:220px;
+    fill-opacity: #E78895;
+    padding: 45px;
+}
+/* F O O T E R */
+.copyrights
+{
+    text-align: left-end;
+    font-size: 14px;
+    color: black;
+    padding: 10px 0;
+}
+
